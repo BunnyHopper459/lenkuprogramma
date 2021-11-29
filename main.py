@@ -6,7 +6,8 @@ def lenkaParbaude(len1,len2,len3):
 len1 = int(input("Ievādi 1. lenķi "))
 len2 = int(input("Ievādi 2. lenķi "))
 len3 = int(input("Ievādi 3. lenķi "))
-if rezultats:
+rez = lenkaParbaude(len1,len2,len3)
+if rez:
   print("Trijstūris eksistē!")
 else:
   print("Trijstūris neeksistē!")
